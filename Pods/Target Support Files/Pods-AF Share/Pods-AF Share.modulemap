@@ -1,0 +1,6 @@
+framework module Pods_AF_Share {
+  umbrella header "Pods-AF Share-umbrella.h"
+
+  export *
+  module * { export * }
+}
