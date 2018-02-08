@@ -46,7 +46,7 @@ class ShareLinkViewController: UIViewController {
         loadingNotification.label.text = "Enviando Enlace"
         
         
-        self.networkManager.shareLink(title: linkTitle, urlLink: linkUrl, completion: { success in
+        self.networkManager.shareLink(title: linkTitle, urlLink: linkUrl, category: AFLinkCategory.videogames.value(), completion: { success in
             if success {
                 RMessage.showNotification(withTitle: "Enlace enviado con exito", subtitle: "", type: .success, customTypeName: "", callback: nil)
             } else {

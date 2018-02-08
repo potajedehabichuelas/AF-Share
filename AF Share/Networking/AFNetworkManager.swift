@@ -14,9 +14,9 @@ internal class STNetworkManager: NSObject {
     //Singleton
     static let sharedInstance = STNetworkManager()
     
-    func shareLink(title: String, urlLink: String, completion: @escaping (Bool) -> Void) {
+    func shareLink(title: String, urlLink: String, category: String, completion: @escaping (Bool) -> Void) {
         
-        Alamofire.request(Router.ShareLink(title: title, link: urlLink)) .responseString { response in
+        Alamofire.request(Router.ShareLink(title: title, link: urlLink, category: category)) .responseString { response in
     
             guard response.result.error == nil else {
                 print("Error sharing Link to AreaForce")

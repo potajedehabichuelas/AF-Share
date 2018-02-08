@@ -44,7 +44,7 @@ class ShareViewController: SLComposeServiceViewController {
         
         guard let link = self.linkUrl, let title = self.linkTitle else { return }
 
-        self.networkManager.shareLink(title: title, urlLink: link, completion: { success in
+        self.networkManager.shareLink(title: title, urlLink: link, category: self.linkCategory.value(),  completion: { success in
             if success {
                 print("success sending link")
                 self.extensionContext?.completeRequest(returningItems: [], completionHandler:nil)

@@ -64,13 +64,14 @@ enum AFLinkCategory {
 enum AFshareEndpointConstants {
     static let title = "str"
     static let linkUrl = "url"
+    static let category = "section"
 }
 
 enum Router: URLRequestConvertible {
     static let baseURLString = AFUrlConstants.base_Url
     
     // Values
-    case ShareLink(title:String, link: String)
+    case ShareLink(title:String, link: String, category: String)
 
     // Methods
     var method: Alamofire.HTTPMethod {
@@ -99,6 +100,7 @@ enum Router: URLRequestConvertible {
             
             parameters[AFshareEndpointConstants.title] = params.title
             parameters[AFshareEndpointConstants.linkUrl] = params.link
+            parameters[AFshareEndpointConstants.category] = params.category
             
             return parameters
         }
