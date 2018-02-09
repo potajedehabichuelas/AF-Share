@@ -12,9 +12,7 @@ target 'AF Share' do
   pod 'NVActivityIndicatorView'
   pod 'MBProgressHUD'
   pod 'IQKeyboardManagerSwift'
-  pod 'Fabric'
-  pod 'Crashlytics'
-  
+
 end
 
 target 'AreaForce Share' do
