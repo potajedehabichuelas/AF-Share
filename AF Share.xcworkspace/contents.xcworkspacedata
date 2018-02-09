@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/danielbolivarherrera/Desktop/AF Share Dvad/AF Share/AreaForce Share/LinkCategoryTableViewController.swift">
-   </FileRef>
-   <FileRef
       location = "group:AF Share.xcodeproj">
    </FileRef>
    <FileRef

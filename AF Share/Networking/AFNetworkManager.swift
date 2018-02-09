@@ -24,6 +24,7 @@ internal class STNetworkManager: NSObject {
                 completion(false)
                 return
             }
+            print(response.request)
             
             if response.response?.statusCode == 200 {
                 completion(true)

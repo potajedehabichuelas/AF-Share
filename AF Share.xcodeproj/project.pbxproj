@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48220F97202CC5B600D622BC /* LinkCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48220F96202CC5B600D622BC /* LinkCategoryTableViewController.swift */; };
+		48220F9A202D198400D622BC /* areaforce@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48220F98202D190D00D622BC /* areaforce@2x.jpg */; };
+		48220F9C202D1A9100D622BC /* LinkCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48220F9B202D1A9100D622BC /* LinkCategoryTableViewController.swift */; };
 		48B6C6C92028A6D4008BA257 /* comicSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48B6C6C820289A3D008BA257 /* comicSans.ttf */; };
 		48B6C6CD2028AE7E008BA257 /* AFStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6C6CC2028AE7E008BA257 /* AFStorage.swift */; };
 		48B6C6D52028AFCA008BA257 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6C6D42028AFCA008BA257 /* ShareViewController.swift */; };
@@ -56,7 +57,8 @@
 		07B95E78EA35A3F3ADB26A27 /* Pods_AreaForce_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreaForce_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		168DCF0ED20FD3699AC4529C /* Pods-AreaForce Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaForce Share.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreaForce Share/Pods-AreaForce Share.debug.xcconfig"; sourceTree = "<group>"; };
 		27B954CCCC350C4459FC2BCD /* Pods-AreaForce Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaForce Share.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreaForce Share/Pods-AreaForce Share.release.xcconfig"; sourceTree = "<group>"; };
-		48220F96202CC5B600D622BC /* LinkCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkCategoryTableViewController.swift; path = "/Users/danielbolivarherrera/Desktop/AF Share Dvad/AF Share/AreaForce Share/LinkCategoryTableViewController.swift"; sourceTree = "<absolute>"; };
+		48220F98202D190D00D622BC /* areaforce@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "areaforce@2x.jpg"; sourceTree = "<group>"; };
+		48220F9B202D1A9100D622BC /* LinkCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkCategoryTableViewController.swift; path = "/Users/danielbolivarherrera/Desktop/AF Share Dvad/AF Share/AreaForce Share/LinkCategoryTableViewController.swift"; sourceTree = "<absolute>"; };
 		48B6C6C820289A3D008BA257 /* comicSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = comicSans.ttf; sourceTree = "<group>"; };
 		48B6C6CA2028ADFA008BA257 /* AF Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AF Share.entitlements"; sourceTree = "<group>"; };
 		48B6C6CC2028AE7E008BA257 /* AFStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFStorage.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		48B6C6C720289A18008BA257 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				48220F98202D190D00D622BC /* areaforce@2x.jpg */,
 				48B6C6C820289A3D008BA257 /* comicSans.ttf */,
 			);
 			path = Resources;
@@ -119,7 +122,7 @@
 		48B6C6D32028AFCA008BA257 /* AreaForce Share */ = {
 			isa = PBXGroup;
 			children = (
-				48220F96202CC5B600D622BC /* LinkCategoryTableViewController.swift */,
+				48220F9B202D1A9100D622BC /* LinkCategoryTableViewController.swift */,
 				48B6C6E12028AFF7008BA257 /* AreaForce Share.entitlements */,
 				48B6C6D42028AFCA008BA257 /* ShareViewController.swift */,
 				48B6C6D62028AFCA008BA257 /* MainInterface.storyboard */,
@@ -310,6 +313,7 @@
 			files = (
 				48ED080720279DC00093BBA3 /* LaunchScreen.storyboard in Resources */,
 				48B6C6C92028A6D4008BA257 /* comicSans.ttf in Resources */,
+				48220F9A202D198400D622BC /* areaforce@2x.jpg in Resources */,
 				48ED080420279DC00093BBA3 /* Assets.xcassets in Resources */,
 				48ED080220279DC00093BBA3 /* Main.storyboard in Resources */,
 			);
@@ -423,11 +427,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48220F97202CC5B600D622BC /* LinkCategoryTableViewController.swift in Sources */,
 				48B6C6E22028B558008BA257 /* AFNetworkManager.swift in Sources */,
 				48B6C6E32028B558008BA257 /* AFNetworkRouter.swift in Sources */,
 				48B6C6E42028B558008BA257 /* AFStorage.swift in Sources */,
 				48B6C6D52028AFCA008BA257 /* ShareViewController.swift in Sources */,
+				48220F9C202D1A9100D622BC /* LinkCategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
