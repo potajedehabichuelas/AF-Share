@@ -16,9 +16,9 @@ import Alamofire
 
 enum AFUrlConstants {
     //Url & constants required for the endpoints
-    static let base_Url: String = "http://areaforce.es/bd"
+    static let base_Url: String = ""
     
-    static let share_Link_Path: String = "/shared.php"
+    static let share_Link_Path: String = ""
 }
 
 enum AFLinkCategory {
